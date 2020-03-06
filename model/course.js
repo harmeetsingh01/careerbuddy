@@ -21,13 +21,13 @@ const courseSchema = new Schema({
         type: String,
     },
     pros:{
-        type: String
+        type: Array
     },
     cons:{
-        type:String
+        type:Array
     },
     top3:{
-        type:String
+        type:Array
     }
 });
 

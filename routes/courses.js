@@ -10,11 +10,11 @@ const Course =  require('../model/course');
 //     qualifications: ['10th','12th']
 // }).save().then(() => console.log('Item saved'))
 
-router.get('/:cours',(req, res) => {
-    console.log(req.params.course);
-    Course.find({course: req.params.cours})
-        .then(course => res.json(course))
-        .catch(err => console.log(err))
-});
+// router.get('/:cours',(req, res) => {
+//     console.log(req.params.course);
+//     Course.find({course: req.params.cours})
+//         .then(course => res.json(course))
+//         .catch(err => console.log(err))
+// });
 
 module.exports = router;
