@@ -16,6 +16,18 @@ const courseSchema = new Schema({
     },
     qualifications:{
         type: Array
+    },
+    description:{
+        type: String,
+    },
+    pros:{
+        type: String
+    },
+    cons:{
+        type:String
+    },
+    top3:{
+        type:String
     }
 });
 
