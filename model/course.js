@@ -19,15 +19,19 @@ const courseSchema = new Schema({
     },
     description:{
         type: String,
+        required: true
     },
     pros:{
-        type: Array
+        type: Array,
+        required: true
     },
     cons:{
-        type:Array
+        type:Array,
+        required: true
     },
     top3:{
-        type:Array
+        type:Array,
+        required: true
     }
 });
 
